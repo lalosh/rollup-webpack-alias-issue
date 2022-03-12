@@ -11,8 +11,10 @@ I'm looking for a way to avoid this `alias` config in `next.config.js` file.
 ```sh
 cd ./react-library
 yarn build
+yarn link
 
 cd ../react-library-test-app
+yarn link @lalosh/rollup-webpack-alias-issue
 yarn run dev
 ```
 
