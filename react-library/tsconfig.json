@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "strict": true,
+    "sourceMap": false,
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "emitDeclarationOnly": true,
+    "declaration": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./*.d.ts"],
+  "exclude": ["./node_modules/**/*"]
+}
